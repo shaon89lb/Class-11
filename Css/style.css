@@ -1,0 +1,107 @@
+/* all common css start here */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol {
+   list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    /* padding: 20px;
+    background: green; */
+    width: 1120px;
+    margin: 0 auto;
+}
+
+/* all common css end here */
+
+/* headerpart start here */
+
+.headerpart{
+    padding: 50px;
+    /* background-color: teal; */
+}
+
+.menu ul {
+    display: flex;
+    gap: 71px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button a {
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    
+}
+
+.menu ul li a {
+     font-family: "Open Sans", sans-serif;
+     font-weight: 400;
+     font-size: 20px;
+     color: #474747;
+}
+
+.menubuttonflex{
+    display: flex;
+    gap: 29px;
+}
+/* headerpart ends here */
+
+/* banner part start here */
+.bannerpart{
+    padding-top: 161px;
+    background-image: url(../images/Group\ 3990.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannercontent h3{
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        font-size: 45px;
+        color: #474747;
+
+}
+
+.bannercontent h1{
+     font-family: "Open Sans", sans-serif;
+     font-weight: 700;
+     font-size: 85px;
+     color: #181818;
+     margin-top: 5px;
+     margin-bottom: 20px;
+    
+}
+
+.bannercontent p {
+     font-family: "Open Sans", sans-serif;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 30px;
+     color: #757575;
+     width: 585px;
+}
+
+.bannerflex{
+    display: flex;
+    gap: 144px;
+
+
+}
